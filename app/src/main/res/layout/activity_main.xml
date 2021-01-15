@@ -1,0 +1,47 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mybackground"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<TextView
+android:text="name"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/uname"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+
+<TextView
+android:text="roll_no"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/roll"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+
+<TextView
+android:text="admno"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/admn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+
+<TextView
+android:text="college"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+<EditText
+    android:id="@+id/col"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+
+<androidx.appcompat.widget.AppCompatButton
+android:text="SUBMIT"
+    android:onClick="myclickevent"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" />
+</LinearLayout>
